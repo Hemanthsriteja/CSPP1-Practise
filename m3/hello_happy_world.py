@@ -1,3 +1,4 @@
 """hello_happy_world"""
 HAPPY = input("Enter a number:")
-if HAPPY > ""
+if HAPPY > "2":
+    print("hello world")
