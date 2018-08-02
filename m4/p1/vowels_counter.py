@@ -2,7 +2,7 @@
 Number of vowels: 5"""
 def main():
     """Enter string"""
-    s_v = input("Enter the string:")
+    s_v = input()
     count_v = 0
     for char in s_v:
         if char in 'AEIOUaeiou':
