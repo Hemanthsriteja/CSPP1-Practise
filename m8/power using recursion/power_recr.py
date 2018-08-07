@@ -12,13 +12,16 @@ def recur_power(base, exp):
     returns: int or float, base^exp
     '''
     # Your code here
-    if exp != 0
+    if exp != 0:
+        return base * recur_power(base, exp-1)
+    else:
+        return 1
     
 
 def main():
     data = input()
     data = data.split()
-    print(recurPower(float(data[0]),int(data[1])))   
+    print(recur_power(float(data[0]),int(data[1])))   
 
 if __name__== "__main__":
     main()
