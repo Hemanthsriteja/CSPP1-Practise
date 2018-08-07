@@ -9,6 +9,7 @@ def gcd_iter(a_v, b_v):
     for i in range(min(a_v, b_v), 0, -1):
         if a_v%i == b_v%i == 0:
             return i
+    return None
 def main():
     """def func"""
     data = input()
