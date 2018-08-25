@@ -16,6 +16,7 @@ def integer_division(x_v, a_v):
     
 
 def main():
+	"""func"""
     data = input()
     data = data.split()
     print(integer_division(int(data[0]), int(data[1])))
